@@ -13,8 +13,8 @@ const contributors = [
 	// Make sure you put a comma after your second bracket.
 ]
 
-// sample contributorinfo
-{
+// sample contributorinfo within {}
+const sample = {
 	name: 'Floating Ghost',
 	description: 'A simple floating ghost animation for your homepage',
 	previewImageLink: 'https://i.ibb.co/XbMqZBC/floating-ghost.gif',
