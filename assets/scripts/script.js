@@ -1,9 +1,9 @@
-const createProjectDiv = ({name, description, previewImageLink, author, facebookProfile, linkedinProfile, githubProfile}) => {
+const createProjectDiv = ({name, description, previewImageLink,folderName, author, facebookProfile, linkedinProfile, githubProfile}) => {
 	return `
 		<h1>${name}</h1>
 		<img class="project-preview-img" src="${previewImageLink}">
 		<p class="project-description">${description}</p>
-		<a href="#" class="project-button">View Animation</a>
+		<a target="_blank" href="animations/${folderName}/index.html" class="project-button">View Animation</a>
 		<p class="author-name"><strong>Author:</strong> ${author}</p>
 		${(facebookProfile || linkedinProfile || githubProfile) ? `
 			<div class="social-media">
