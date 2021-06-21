@@ -15,7 +15,7 @@ An opensource animation gallery for animations made with html and css only.
 - Include your description in the **contributors.js** file like the samples.
 - Commit your files.
 - Push your new branch.
-- Create a pull request with a description like below :
+- Create a pull request to the main repo with a description like below :
 > I contributed with a new animation, please include me as a contributor.
 
 > Name: YOUR_NAME
