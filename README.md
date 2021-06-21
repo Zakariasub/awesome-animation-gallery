@@ -20,5 +20,5 @@ An opensource animation gallery for animations made with html and css only.
 > Email: YOUR_EMAIL
 
 
-####Contributors
+#### Contributors
 1. Adnan Sabbir
