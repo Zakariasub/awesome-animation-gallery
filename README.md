@@ -1,7 +1,7 @@
 # Awesome Animation Gallery
 An opensource animation gallery for animations made with html and css only. 
 
-### [Click to see the gallery](https://beprodev.github.io/animations-gallery/ "Heading link")
+### [Click to see the gallery](https://beprodev.github.io/awesome-animation-gallery/ "Heading link")
 
 ### How to contribute
 
