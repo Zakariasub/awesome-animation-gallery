@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+		display: none;
+	}
+
+a{
+	text-decoration: none;
+}
+
+.heading{
+	background-image: url('https://www.policebank.com.au/wp-content/uploads/2018/02/iStock-832632796-Abstract-web-background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.heading h1{
+	color: white;
+	text-shadow: 2px 2px 8px rgb(0 220 255);;
+	width: 100%;
+	padding: 20px;
+	font-size: 2.7rem;
+	background-color: rgba(0,0,0, .65);
+}
+
+.gallery{
+	padding: 20px;
+}
+
+.gallery .title{
+	text-align: center;
+	font-size: 1.5rem;
+	color: rgb(0 220 255);
+}
+
+.awesome-gallery{
+	width: 100%;
+	height: 100%;
+	display: inline-flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.project{
+	min-height: 300px; 
+	width: calc(20% - 42px);
+	border: 1px solid rgb(0 220 255);
+	border-radius: 5px;
+	padding: 10px;
+	text-align: left;
+	margin: 10px;
+}
+
+.project h1{
+	font-size: .5rem;
+	text-align: center;
+}
+
+.project-preview-img{
+	width: 100%;
+	height: auto;
+}
+
+.project p{
+	font-size: .4rem;
+}
+
+.project .project-button{
+	-webkit-appearance: button;
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+        display: inline-block;
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.project-description, .author-name{
+	margin: 10px;
+}
+
+.social-media{
+	font-size: .4rem;
+	margin-left: 10px;
+}
+
+.social-media-icon{
+	height: 24px;
+	width: 24px;
+	margin-top: 5px;
+}
+
+@media only screen and (max-width: 1600px) {
+
+	.heading h1{
+		font-size: 2rem;
+	}
+
+	.project{
+		width: calc(25% - 42px);
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.project{
+		width: calc(33% - 42px);
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.heading{
+		font-size: .8rem;
+	}
+
+	.project{
+		width: calc(50% - 42px);
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.heading{
+		font-size: .5rem;
+	}
+
+	.heading h1{
+	  	font-size: 1rem;
+	  }
+
+	.project{
+		width: calc(100% - 42px);
+	}
+}
